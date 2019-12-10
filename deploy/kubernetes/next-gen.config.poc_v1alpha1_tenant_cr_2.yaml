@@ -1,0 +1,7 @@
+apiVersion: next-gen.config.poc/v1alpha1
+kind: Tenant
+metadata:
+  name: example-tenant-2
+spec:
+  # Add fields here
+  mode: INACTIVE

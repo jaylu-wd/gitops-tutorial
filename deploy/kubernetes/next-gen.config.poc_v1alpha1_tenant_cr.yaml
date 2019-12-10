@@ -4,4 +4,4 @@ metadata:
   name: example-tenant
 spec:
   # Add fields here
-  mode: INACTIVE
+  mode: ACTIVE

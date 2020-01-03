@@ -5,4 +5,4 @@ metadata:
   namespace: default
 spec:
   # Add fields here
-  mode: INACTIVE
+  mode: ACTIVE

@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   properties:
-    confidenceLevel: Production
+    confidenceLevel: Internal
     environmentType: SUDEV
     wsdlTenant: wd11ciwdoms-0
     webServiceUri: https://jaylu38088-services1.wdscylla.de/ccx/service

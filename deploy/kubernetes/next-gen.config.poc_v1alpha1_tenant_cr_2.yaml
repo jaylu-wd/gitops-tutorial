@@ -1,8 +1,27 @@
 apiVersion: next-gen.config.poc/v1alpha1
 kind: Tenant
+
 metadata:
-  name: example-tenant-2
-  namespace: default
+  name: super
 spec:
-  # Add fields here
-  mode: ACTIVE
+  properties:
+    confidenceLevel: Production
+    obfuscatedTenantId: |-
+      pYYgGtT4NeZTARmpfjVcD6UhuPlFjnZTrQcSxIjJOO0=
+    blobitoryDatabaseName: wd11ci_super_blob
+    mode: ACTIVE
+    vcrRestrictionDisabled: No
+    cloudBatchProcessEnabled: Yes
+    tenantSalt: |-
+      i6cTLDsDXM+wg6aapcF8WAs5zYBaj8MgEBpTXnS5uD4+XhNbc4MaEeE20BsjFvwA+XRH6uBeI994Tlypa+o1DWqN85bX0sOoZB9MN9SUQxAAMSVr/sE4wAk2IfX72xe+1gSGE7Fafop6FXt6T5ot3xZQ0utfpJCRrbClrrqUgcYTHbBXpYuRbYNTct1gxyAbhsX7sgxQ8SJXQl6ax753X4HqLt0xODPljgaGqbcPoyYEKdaIxHHAb62QaIL0bMECIiR1M9U+W5x5Z+V4PpMb3dEwsIhO2jvoqm5d2ZvpBK+rs5OFWC0d6Y7cSAVPWhtbj0z+2n3O9a8wSx1j25mrmEGIKRM/zM2waC8KBdB6+pYjaQe23ATw73nIjKKMID4vsi41zlxQIP1iQ1oMLdOeVgYMVOu/OXWIaYUhoYsh5wiHSLr8P+0IUIXWQ6xShVYcMQfZcCzKwVfYJYVZDsE1wBRZfvz+NWzbaBmbhowZwv1rm45nDeFSUyZFGiPSrvrAyrQ+URtxrHXy67+DbltV95vAjRkRPEszIZ/noPAorPJMqeDt1+r6UZPSQ/54TwA3nvCQ+qX1kdPTATEO0/Op4cFMFQmpeJegljGUjVYCTAYun5PzyVQjhIljcHWO62iJu2Gmq46iIuK/7kPeclgfCQ9jnrJ3iyVYAU4J2ny05nY=
+    tags: ADP plus GLOBALHR plus SUPER plus NORTHGATEARINSO plus 3M3 plus GPCPROTOTYPE_PT2 and 3 plus SIEMENS plus BRISTOL_MYERS_SQUIBB,Asset Depreciation Schedule Example CV In Dev Tenants Only,BDS OPA,Biweekly Overtime Calculations Feature,CM Not Sending Put Int Message,DaaS Job Tenant Blacklist,Disable HC Updates Wave 2,Document Generation Whitelist,Drax Delivery Wave 2,Drax in IMPL and CONVTEST,Dublin Data Center,EIB on E2 Wave 0,Enable indexing for all class for Select customers and Dev Envs,Enable My Candidate SID for Select Customers and Dev Envs,Enable Report Indexing for Dev Tenants Only,Geo Facet Search Second Set of Tenants,Global Payroll Reconciliation Pilot Customer Tag,Import WS MLV Exotic,Large Reports move to E2,New Consolidated Print Logical,New Memory Stats Report,Prioritazion Feature,Prior Plan Year Service Enhancement,PRISM_DATA_API_V2,PRISM_WRITE_OBFUSCATED_DATASET_TO_HDFS_BEFORE_LENS_BUILD,Report on Job Super,Retention Risk,Retention Risk Enabling 1,Search Early Intersection Phase 1 Adopters,Serial Large Instance Decompression,SUPER or mdaas tenant,Tenanted DIS Early Adopters Phase 2,Tenanted DIS Early Adopters Test Group,Test Tenant Dek Rotation,Verbose Instance Access Stats Structured Rollout,Verify with Index Store
+    adminTenant: No
+    instanceDataDatabaseName: wd11ci_super
+    customerBillingId: DEF0000000000006
+    tenantGroupTags: ""
+    allTags: ADP plus GLOBALHR plus SUPER plus NORTHGATEARINSO plus 3M3 plus GPCPROTOTYPE_PT2 and 3 plus SIEMENS plus BRISTOL_MYERS_SQUIBB,Asset Depreciation Schedule Example CV In Dev Tenants Only,BDS OPA,Biweekly Overtime Calculations Feature,CM Not Sending Put Int Message,DaaS Job Tenant Blacklist,Disable HC Updates Wave 2,Document Generation Whitelist,Drax Delivery Wave 2,Drax in IMPL and CONVTEST,Dublin Data Center,EIB on E2 Wave 0,Enable indexing for all class for Select customers and Dev Envs,Enable My Candidate SID for Select Customers and Dev Envs,Enable Report Indexing for Dev Tenants Only,Geo Facet Search Second Set of Tenants,Global Payroll Reconciliation Pilot Customer Tag,Import WS MLV Exotic,Large Reports move to E2,New Consolidated Print Logical,New Memory Stats Report,Prioritazion Feature,Prior Plan Year Service Enhancement,PRISM_DATA_API_V2,PRISM_WRITE_OBFUSCATED_DATASET_TO_HDFS_BEFORE_LENS_BUILD,Report on Job Super,Retention Risk,Retention Risk Enabling 1,Search Early Intersection Phase 1 Adopters,Serial Large Instance Decompression,SUPER or mdaas tenant,Tenanted DIS Early Adopters Phase 2,Tenanted DIS Early Adopters Test Group,Test Tenant Dek Rotation,Verbose Instance Access Stats Structured Rollout,Verify with Index Store
+
+  references:
+    environments: testenvironment
+    tenantGroup: wd11ciots-0-tg-2
+    databaseServer: MYSQL-EXTERNAL

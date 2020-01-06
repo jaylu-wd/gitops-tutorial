@@ -1,0 +1,26 @@
+apiVersion: next-gen.config.poc/v1alpha1
+kind: Tenant
+metadata:
+  name: wd11ciwdoms-0
+spec:
+  properties:
+    confidenceLevel: Production
+    obfuscatedTenantId: |-
+      Rz06NGXXPIpJJZ/2dex9Om7pIUVnKvecrZ9rop/gD2c=
+    blobitoryDatabaseName: wd11ci_wdoms_0_blob
+    mode: ACTIVE
+    vcrRestrictionDisabled: No
+    cloudBatchProcessEnabled: No
+    tenantSalt: |-
+      klF6/JLbAWJRlK6ORZoMnezSlFW0292Vo3a59LthcjitrNwnx34Dr29AvpvQXQNMnOxrLZzXgzwpWZpT/Yvz+MXUvaCrFS7KgJDLHBnNyCsacLzSvP/7YJyy3ZiM/ortlBhY64WkhWT9VfFOb4L4gTkIjKAcz/KtUeyC/nvUhh/D43FXyzbOEa+bgBpU4sJFfpcOMUVs4bDYd2FN6PQtlig46YssaOXZEviYoj/gzv+NGxc4dy/v8qqBr2X/ABcBn962t9Yk1+nXh+Sk1Z9Vp6VFTR2j4j7FCmtCqKZpI7zDjAmAOSIqmh4HMb9plaNfpTVSr43dqyCNC6wwxER55nCgmPkztiY74LPuSellUnFV4vivH13PFJX4Dfm9SsbTrJRYbgHNprem+lYfHHZCV0VH762Me51s9gZcOHmDO1O7beRXgUkUNd/WJGlGs0IlDI62EX/m3Gh/3S3eDMV+5yWemCM9jraOJn1VPjfq6ig3ZSgxQyAaYVgmC6WFWNWWNfWVr06aeMqwPDU7+hlZ/LGGoYw4UFYePYyAGpwmFjZ3jKZ/zvzyweGSK0tIaW02tGn6vk6ewBgzmZRGlTz+Y8l194z/6qOJelIYUutrhYO7xwmHS3fz4OyX8DnEHRxKOq+vzjtiIuJ1p4L+Zolz4Iq20Q6MpjTyDbPdbB5qzNY=
+    tags: ""
+    adminTenant: Yes
+    instanceDataDatabaseName: wd11ci_wdoms_0
+    customerBillingId: DEF0000000000008
+    tenantGroupTags: ""
+    allTags: ""
+
+  references:
+    environments: testenvironment
+    tenantGroup: wd11ciots-0-tg-1
+    databaseServer: MYSQL-EXTERNAL

@@ -1,0 +1,12 @@
+apiVersion: next-gen.config.poc/v1alpha1
+kind: ServiceDomain
+metadata:
+  name: wd11ci
+spec:
+  properties:
+    confidenceLevel: Production
+    environmentType: SUDEV
+    wsdlTenant: wd11ciwdoms-0
+    webServiceUri: https://jaylu38088-services1.wdscylla.de/ccx/service
+  references:
+    environments: testenvironment

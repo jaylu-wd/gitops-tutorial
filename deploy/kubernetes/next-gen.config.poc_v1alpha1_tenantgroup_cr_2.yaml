@@ -1,0 +1,60 @@
+apiVersion: next-gen.config.poc/v1alpha1
+kind: TenantGroup
+metadata:
+  name: wd11ciots-0-tg-2
+spec:
+  properties:
+    omsFormalNote: ""
+    version: 2019.43.1038
+    defaultWdEnvironmentsPassword: |-
+      wV3pOE6xl+F660kwvoLfuCwgBiO5aUtYDonq/OuKn8IOQIP8xtIfMrQFsaN8dxD1YllumWaIRyoyhNhLvCUgPHVE3p5a8jDKuIobMuSE5npDAqxXra2hMz2qHNKeFufGS4EJ30gdzWVT2dUySNOyFgBFcE8sqtgWtLntIa8r1UuRrGVD4BOoQ0zHIvcpU/cHobcSUDshd7r6B+zbzljY/qc4oYZ+iWAw4XSnQZilHTy+rQj6RuiYkkveECjZWD+ORSh+a9/bVWz1yWsbLuWM3U+DchjuwRO3YMqNQBitb+PKuu8qamwQBupMtNAdm9xJ/TzE8aoNkVxEERbOo/+H7VgzaMBQQ1sk+Sr++5Xl+sOGhi0EHrWH4Cd4DBrTkmvCc6Lg02u7TTUKNJj+Qpc4g+GXLb8CJ3RghuaJ4rW3NoSEKDn9UCNhzuBBOY+D4sruoUvl9NTJvxq2Hryjauwp6WhMZifl3aycBIIHwTKAUjJjgyRMhlYRmGUwv9CaJBdtdNhM7WPn644RPQxLiz+3AD66ypHZYQmjo+RJFbCi3Yvb8zwuXc3QhoM4pDs3/xgbzbJhXYlfH5HVZpvUc2HwFVvoXaBT09ajMRJu3ybTJzCEw6V3PgMgz8vPLo2T25ADKnyuCf0oTiQFfSHkJaT8ggA8trqTRF/IIdE0ax9Vknk=
+    syncTenant: wdsetup
+    defaultWdSupportPassword: |-
+      wV3pOE6xl+F660kwvoLfuCwgBiO5aUtYDonq/OuKn8IOQIP8xtIfMrQFsaN8dxD1YllumWaIRyoyhNhLvCUgPHVE3p5a8jDKuIobMuSE5npDAqxXra2hMz2qHNKeFufGS4EJ30gdzWVT2dUySNOyFgBFcE8sqtgWtLntIa8r1UuRrGVD4BOoQ0zHIvcpU/cHobcSUDshd7r6B+zbzljY/qc4oYZ+iWAw4XSnQZilHTy+rQj6RuiYkkveECjZWD+ORSh+a9/bVWz1yWsbLuWM3U+DchjuwRO3YMqNQBitb+PKuu8qamwQBupMtNAdm9xJ/TzE8aoNkVxEERbOo/+H7VgzaMBQQ1sk+Sr++5Xl+sOGhi0EHrWH4Cd4DBrTkmvCc6Lg02u7TTUKNJj+Qpc4g+GXLb8CJ3RghuaJ4rW3NoSEKDn9UCNhzuBBOY+D4sruoUvl9NTJvxq2Hryjauwp6WhMZifl3aycBIIHwTKAUjJjgyRMhlYRmGUwv9CaJBdtdNhM7WPn644RPQxLiz+3AD66ypHZYQmjo+RJFbCi3Yvb8zwuXc3QhoM4pDs3/xgbzbJhXYlfH5HVZpvUc2HwFVvoXaBT09ajMRJu3ybTJzCEw6V3PgMgz8vPLo2T25ADKnyuCf0oTiQFfSHkJaT8ggA8trqTRF/IIdE0ax9Vknk=
+    syncUser: wdsetup@wdsetup
+    mode: READY
+    tags: ""
+    defaultWdDeveloperPassword: |-
+      wV3pOE6xl+F660kwvoLfuCwgBiO5aUtYDonq/OuKn8IOQIP8xtIfMrQFsaN8dxD1YllumWaIRyoyhNhLvCUgPHVE3p5a8jDKuIobMuSE5npDAqxXra2hMz2qHNKeFufGS4EJ30gdzWVT2dUySNOyFgBFcE8sqtgWtLntIa8r1UuRrGVD4BOoQ0zHIvcpU/cHobcSUDshd7r6B+zbzljY/qc4oYZ+iWAw4XSnQZilHTy+rQj6RuiYkkveECjZWD+ORSh+a9/bVWz1yWsbLuWM3U+DchjuwRO3YMqNQBitb+PKuu8qamwQBupMtNAdm9xJ/TzE8aoNkVxEERbOo/+H7VgzaMBQQ1sk+Sr++5Xl+sOGhi0EHrWH4Cd4DBrTkmvCc6Lg02u7TTUKNJj+Qpc4g+GXLb8CJ3RghuaJ4rW3NoSEKDn9UCNhzuBBOY+D4sruoUvl9NTJvxq2Hryjauwp6WhMZifl3aycBIIHwTKAUjJjgyRMhlYRmGUwv9CaJBdtdNhM7WPn644RPQxLiz+3AD66ypHZYQmjo+RJFbCi3Yvb8zwuXc3QhoM4pDs3/xgbzbJhXYlfH5HVZpvUc2HwFVvoXaBT09ajMRJu3ybTJzCEw6V3PgMgz8vPLo2T25ADKnyuCf0oTiQFfSHkJaT8ggA8trqTRF/IIdE0ax9Vknk=
+    environmentType: SUDEV
+    selectiveRecompressionType: Disabled
+    otsSessionRestrictions: ""
+    systemStatusMessage: ""
+    confidenceLevel: Production
+    noteFromDave: ""
+    syncUserPassword: |-
+      wV3pOE6xl+F660kwvoLfuCwgBiO5aUtYDonq/OuKn8IOQIP8xtIfMrQFsaN8dxD1YllumWaIRyoyhNhLvCUgPHVE3p5a8jDKuIobMuSE5npDAqxXra2hMz2qHNKeFufGS4EJ30gdzWVT2dUySNOyFgBFcE8sqtgWtLntIa8r1UuRrGVD4BOoQ0zHIvcpU/cHobcSUDshd7r6B+zbzljY/qc4oYZ+iWAw4XSnQZilHTy+rQj6RuiYkkveECjZWD+ORSh+a9/bVWz1yWsbLuWM3U+DchjuwRO3YMqNQBitb+PKuu8qamwQBupMtNAdm9xJ/TzE8aoNkVxEERbOo/+H7VgzaMBQQ1sk+Sr++5Xl+sOGhi0EHrWH4Cd4DBrTkmvCc6Lg02u7TTUKNJj+Qpc4g+GXLb8CJ3RghuaJ4rW3NoSEKDn9UCNhzuBBOY+D4sruoUvl9NTJvxq2Hryjauwp6WhMZifl3aycBIIHwTKAUjJjgyRMhlYRmGUwv9CaJBdtdNhM7WPn644RPQxLiz+3AD66ypHZYQmjo+RJFbCi3Yvb8zwuXc3QhoM4pDs3/xgbzbJhXYlfH5HVZpvUc2HwFVvoXaBT09ajMRJu3ybTJzCEw6V3PgMgz8vPLo2T25ADKnyuCf0oTiQFfSHkJaT8ggA8trqTRF/IIdE0ax9Vknk=
+  references:
+    environments: testenvironment
+    serviceDomain: wd11ci
+    metadataDatabaseInformation: POD-01-WD11CI-mdbi
+    slavePool: general
+  cloudResources:
+    - properties:
+        minimumNumberOfInstances: 1
+        maximumNumberOfInstances: 1
+        standby: No
+        serviceType: OTS
+    - properties:
+        maximumNumberOfInstances: 1
+        minimumNumberOfInstances: 1
+        standby: No
+        serviceType: AOD
+    - properties:
+        maximumNumberOfInstances: 1
+        minimumNumberOfInstances: 1
+        standby: No
+        serviceType: ORS
+        serviceRoles: JOB
+    - properties:
+        maximumNumberOfInstances: 1
+        minimumNumberOfInstances: 1
+        standby: No
+        serviceType: ORS
+        serviceRoles: JOB2,REPORT
+    - properties:
+        maximumNumberOfInstances: 1
+        minimumNumberOfInstances: 1
+        standby: No
+        serviceType: ORS
+        serviceRoles: UI

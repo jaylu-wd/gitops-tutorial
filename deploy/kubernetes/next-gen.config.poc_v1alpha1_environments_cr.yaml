@@ -1,0 +1,7 @@
+apiVersion: next-gen.config.poc/v1alpha1
+kind: Environments
+metadata:
+  name: testenvironment
+spec:
+  properties: {}
+  references: {}

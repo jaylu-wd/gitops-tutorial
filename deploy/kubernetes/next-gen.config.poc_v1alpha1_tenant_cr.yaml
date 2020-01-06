@@ -1,8 +1,0 @@
-apiVersion: next-gen.config.poc/v1alpha1
-kind: Tenant
-metadata:
-  name: example-tenant
-  namespace: default
-spec:
-  # Add fields here
-  mode: ACTIVE

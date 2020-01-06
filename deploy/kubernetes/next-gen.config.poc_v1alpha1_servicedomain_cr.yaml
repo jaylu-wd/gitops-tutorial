@@ -2,6 +2,7 @@ apiVersion: next-gen.config.poc/v1alpha1
 kind: ServiceDomain
 metadata:
   name: wd11ci
+  namespace: default
 spec:
   properties:
     confidenceLevel: Production

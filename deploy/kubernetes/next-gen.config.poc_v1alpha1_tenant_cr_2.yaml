@@ -1,8 +1,8 @@
 apiVersion: next-gen.config.poc/v1alpha1
 kind: Tenant
-
 metadata:
   name: super
+  namespace: default
 spec:
   properties:
     confidenceLevel: Production

@@ -2,6 +2,7 @@ apiVersion: next-gen.config.poc/v1alpha1
 kind: Tenant
 metadata:
   name: wd11ciwdoms-0
+  namespace: default
 spec:
   properties:
     confidenceLevel: Production

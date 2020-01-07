@@ -1,0 +1,10 @@
+apiVersion: next-gen.config.poc/v1alpha1
+kind: SlavePool
+metadata:
+  name: general
+  namespace: scylla
+spec:
+  properties:
+    numberOfPoolMembers: 1
+  references:
+    environments: testenvironment

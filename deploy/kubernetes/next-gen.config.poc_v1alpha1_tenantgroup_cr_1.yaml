@@ -42,20 +42,20 @@ spec:
         standby: No
         serviceType: AOD
     - properties:
-        maximumNumberOfInstances: 1
-        minimumNumberOfInstances: 1
+        maximumNumberOfInstances: 0
+        minimumNumberOfInstances: 0
         standby: No
         serviceType: ORS
         serviceRoles: JOB
     - properties:
-        maximumNumberOfInstances: 1
-        minimumNumberOfInstances: 1
+        maximumNumberOfInstances: 0
+        minimumNumberOfInstances: 0
         standby: No
         serviceType: ORS
         serviceRoles: JOB2,REPORT
     - properties:
-        maximumNumberOfInstances: 1
-        minimumNumberOfInstances: 1
+        maximumNumberOfInstances: 0
+        minimumNumberOfInstances: 0
         standby: No
         serviceType: ORS
         serviceRoles: UI

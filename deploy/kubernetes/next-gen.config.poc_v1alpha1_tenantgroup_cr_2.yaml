@@ -2,7 +2,7 @@ apiVersion: next-gen.config.poc/v1alpha1
 kind: TenantGroup
 metadata:
   name: wd11ciots-0-tg-2
-  namespace: default
+  namespace: scylla
 spec:
   properties:
     omsFormalNote: ""

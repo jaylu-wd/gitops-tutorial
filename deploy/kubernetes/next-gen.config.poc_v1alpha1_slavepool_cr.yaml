@@ -2,7 +2,7 @@ apiVersion: next-gen.config.poc/v1alpha1
 kind: SlavePool
 metadata:
   name: general
-  namespace: default
+  namespace: scylla
 spec:
   properties:
     numberOfPoolMembers: 1

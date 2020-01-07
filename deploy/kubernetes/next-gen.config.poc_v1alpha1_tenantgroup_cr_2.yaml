@@ -29,7 +29,7 @@ spec:
     environments: testenvironment
     serviceDomain: wd11ci
     metadataDatabaseInformation: POD-01-WD11CI-mdbi
-    slavePool: general
+    slavePool: oms
   cloudResources:
     - properties:
         minimumNumberOfInstances: 1

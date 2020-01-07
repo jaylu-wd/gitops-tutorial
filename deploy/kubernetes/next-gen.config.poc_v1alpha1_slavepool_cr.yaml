@@ -1,7 +1,7 @@
 apiVersion: next-gen.config.poc/v1alpha1
 kind: SlavePool
 metadata:
-  name: general
+  name: oms
   namespace: scylla
 spec:
   properties:

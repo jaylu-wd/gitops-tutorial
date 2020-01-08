@@ -23,5 +23,5 @@ spec:
 
   references:
     environments: testenvironment
-    tenantGroup: wd11ciots-0-tg-1
+    tenantGroup: wd11ciots-0-tg-3
     databaseServer: MYSQL-EXTERNAL

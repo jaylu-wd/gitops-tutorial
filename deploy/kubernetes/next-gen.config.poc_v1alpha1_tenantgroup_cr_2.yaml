@@ -20,7 +20,8 @@ spec:
     environmentType: SUDEV
     selectiveRecompressionType: Disabled
     otsSessionRestrictions: ""
-    systemStatusMessage: "Testing"
+    systemStatus
+Message: "Test"
     confidenceLevel: Production
     noteFromDave: ""
     syncUserPassword: |-
